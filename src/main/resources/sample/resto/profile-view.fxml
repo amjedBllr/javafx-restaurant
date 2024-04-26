@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" style="-fx-background-color: #001C55;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.resto.ProfileController">
+   <children>
+      <AnchorPane layoutX="10.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" style="-fx-background-color: #001C55;">
+         <children>
+            <Pane prefHeight="745.0" prefWidth="1298.0" style="-fx-background-color: #001C55;" BorderPane.alignment="CENTER">
+               <children>
+                  <Text fill="#ffffffd9" layoutX="57.0" layoutY="89.0" strokeType="OUTSIDE" strokeWidth="0.0" text="About Us" wrappingWidth="170.9366912841797">
+                     <font>
+                        <Font name="Montserrat SemiBold" size="35.0" />
+                     </font>
+                  </Text>
+                  <Text fill="#a6e1fad9" layoutX="57.0" layoutY="191.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Where tradition meets taste!" wrappingWidth="370.9366455078125">
+                     <font>
+                        <Font name="Montserrat SemiBold" size="21.0" />
+                     </font>
+                  </Text>
+                  <Text fill="#ffffffd9" layoutX="57.0" layoutY="229.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Located in the heart of Constantine, our restaurant proudly celebrates the rich culinary heritage of Constantinois cuisine. With a legacy spanning generations, we are dedicated to preserving and sharing the authentic flavors and traditions of our region." wrappingWidth="612.5367126464844">
+                     <font>
+                        <Font name="Montserrat SemiBold" size="15.0" />
+                     </font>
+                  </Text>
+                  <Text fill="#a6e1fad9" layoutX="57.0" layoutY="378.0" strokeType="OUTSIDE" strokeWidth="0.0" text="At constantine restaurant ..." wrappingWidth="370.9366455078125">
+                     <font>
+                        <Font name="Montserrat SemiBold" size="21.0" />
+                     </font>
+                  </Text>
+                  <Text fill="#ffffffd9" layoutX="57.0" layoutY="416.0" strokeType="OUTSIDE" strokeWidth="0.0" text="every dish is a labor of love, crafted with care and attention to detail. From savory couscous to aromatic tagines, our menu features a diverse array of traditional dishes, each prepared using time-honored recipes and the finest locally-sourced ingredients." wrappingWidth="612.5367126464844">
+                     <font>
+                        <Font name="Montserrat SemiBold" size="15.0" />
+                     </font>
+                  </Text>
+                  <Text fill="#ffffffd9" layoutX="57.0" layoutY="526.0" strokeType="OUTSIDE" strokeWidth="0.0" text="But our commitment to excellence extends beyond the kitchen. Our warm and inviting atmosphere, reminiscent of a traditional Constantinois home, provides the perfect setting for gatherings with family and friends. Whether you're enjoying a leisurely meal or celebrating a special occasion, our attentive staff is here to ensure your dining experience is nothing short of exceptional." wrappingWidth="612.5367126464844">
+                     <font>
+                        <Font name="Montserrat SemiBold" size="15.0" />
+                     </font>
+                  </Text>
+                   <ImageView fitHeight="347.0" fitWidth="353.0" layoutX="812.0" layoutY="184.0" pickOnBounds="true" preserveRatio="true">
+                       <image>
+                           <Image url="file:/C:/Users/PC/IdeaProjects/resto/src/images/menu.png" />
+                       </image>
+                   </ImageView>
+               </children>
+            </Pane>
+         </children>
+      </AnchorPane>
+      <Pane layoutX="10.0" layoutY="10.0" prefHeight="745.0" prefWidth="1298.0" style="-fx-background-color: #001C55;">
+         <children>
+            <Text fill="#ffffffd9" layoutX="57.0" layoutY="89.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Profile" wrappingWidth="170.9366912841797">
+               <font>
+                  <Font name="Montserrat SemiBold" size="35.0" />
+               </font>
+            </Text>
+            <Text fill="#a6e1fad9" layoutX="59.0" layoutY="178.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Email" wrappingWidth="120.53663635253906">
+               <font>
+                  <Font name="Montserrat SemiBold" size="21.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="428.0" fitWidth="383.0" layoutX="743.0" layoutY="170.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="file:/C:/Users/PC/IdeaProjects/resto/src/images/profile.png" />
+               </image>
+            </ImageView>
+            <TextField layoutX="57.0" layoutY="203.0" prefHeight="34.0" prefWidth="383.0" promptText="user@example.com" text="user@example.com">
+               <font>
+                  <Font name="Montserrat Regular" size="12.0" />
+               </font>
+            </TextField>
+            <Text fill="#a6e1fad9" layoutX="61.0" layoutY="291.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Username" wrappingWidth="120.53663635253906">
+               <font>
+                  <Font name="Montserrat SemiBold" size="21.0" />
+               </font>
+            </Text>
+            <TextField layoutX="59.0" layoutY="316.0" prefHeight="34.0" prefWidth="383.0" promptText="JoeShmoe" text="JoeShmoe">
+               <font>
+                  <Font name="Montserrat Regular" size="12.0" />
+               </font>
+            </TextField>
+            <Text fill="#a6e1fad9" layoutX="61.0" layoutY="415.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Shipping address" wrappingWidth="195.73666381835938">
+               <font>
+                  <Font name="Montserrat SemiBold" size="21.0" />
+               </font>
+            </Text>
+            <TextField layoutX="57.0" layoutY="442.0" prefHeight="34.0" prefWidth="383.0" promptText="1234 Oak Street, Apartment 5ASpringfield, USA" text="1234 Oak Street, Apartment 5ASpringfield, USA">
+               <font>
+                  <Font name="Montserrat Regular" size="12.0" />
+               </font>
+            </TextField>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

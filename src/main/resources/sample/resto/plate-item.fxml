@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.text.Font?>
+
+<VBox xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="sample.resto.PlateItem"
+      prefHeight="400.0" prefWidth="600.0">
+    <children>
+        <ImageView fx:id="img" fitHeight="130.0" fitWidth="130.0" pickOnBounds="true">
+            <image>
+                <Image url="file:/C:/Users/PC/IdeaProjects/resto/src/images/place-holder-image.png" />
+            </image>
+        </ImageView>
+        <Label fx:id="name" prefHeight="18.0" prefWidth="132.0" text="mahjouba" textFill="#ffffffd9">
+            <font>
+                <Font name="Montserrat SemiBold" size="14.0" />
+            </font>
+            <VBox.margin>
+                <Insets left="10.0" top="10.0" />
+            </VBox.margin>
+        </Label>
+        <Label fx:id="price" prefHeight="15.0" prefWidth="132.0" text="250DA" textFill="#0e6ba8d9">
+            <font>
+                <Font name="Montserrat Medium" size="12.0" />
+            </font>
+            <VBox.margin>
+                <Insets left="10.0" top="5.0" />
+            </VBox.margin>
+        </Label>
+    </children>
+</VBox>
+Z

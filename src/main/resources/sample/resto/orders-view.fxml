@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" style="-fx-background-color: #001C55;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.resto.OrdersController">
+   <children>
+      <Pane layoutX="10.0" layoutY="10.0" prefHeight="745.0" prefWidth="1298.0" style="-fx-background-color: #001C55;">
+         <children>
+            <Text fill="#ffffffd9" layoutX="57.0" layoutY="89.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Orders" wrappingWidth="170.9366912841797">
+               <font>
+                  <Font name="Montserrat SemiBold" size="35.0" />
+               </font>
+            </Text>
+            <Text fill="#ffffffd9" layoutX="57.0" layoutY="155.0" strokeType="OUTSIDE" strokeWidth="0.0" text="your orders so far are :" wrappingWidth="247.7366943359375">
+               <font>
+                  <Font name="Montserrat SemiBold" size="20.0" />
+               </font>
+            </Text>
+            <VBox fx:id="container" layoutX="57.0" layoutY="186.0" prefHeight="409.0" prefWidth="452.0" spacing="10.0">
+               <children>
+                  
+                  <Label fx:id="orders" prefHeight="23.0" prefWidth="453.0" text="Nothing !!" textFill="#ffffffd9">
+                     <font>
+                        <Font name="Montserrat SemiBold" size="18.0" />
+                     </font>
+                  </Label>
+               </children>
+               <padding>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </padding>
+            </VBox>
+            <Button layoutX="57.0" layoutY="624.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="140.0" style="-fx-background-color: #A6E1FA; -fx-cursor: hand;"  text="Confirm orders" textFill="#000000d9">
+               <font>
+                  <Font name="Montserrat SemiBold" size="12.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="494.0" fitWidth="493.0" layoutX="626.0" layoutY="62.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="file:/C:/Users/PC/IdeaProjects/resto/src/images/list-removebg-preview.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

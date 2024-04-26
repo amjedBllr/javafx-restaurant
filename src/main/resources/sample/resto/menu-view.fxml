@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="749.0" prefWidth="1294.0" style="-fx-background-color: #001C55;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.resto.MenuController">
+    <Pane prefHeight="746.0" prefWidth="1298.0" style="-fx-background-color: #001C55;" BorderPane.alignment="CENTER">
+      <children>
+         <VBox prefHeight="749.0" prefWidth="1298.0">
+            <children>
+               <VBox prefHeight="240.0" prefWidth="100.0">
+                  <children>
+                     <Label prefHeight="43.0" prefWidth="168.0" text="MAIN COURSES" textFill="#a6e1fad9">
+                        <font>
+                           <Font name="Montserrat SemiBold" size="18.0" />
+                        </font>
+                        <padding>
+                           <Insets left="10.0" />
+                        </padding>
+                     </Label>
+                     <HBox prefHeight="200.0" prefWidth="1298.0">
+                        <children>
+
+
+                           <VBox alignment="TOP_CENTER" onMouseClicked="#addToCart" prefHeight="206.0" prefWidth="150.0">
+                              <children>
+                                 <ImageView fitHeight="130.0" fitWidth="130.0" pickOnBounds="true" style="-fx-border-radius: 10;">
+                                    <image>
+                                       <Image url="file:/C:/Users/PC/IdeaProjects/resto/src/images/Chakhchoukha-bl-osbana.jpg" />
+                                    </image>
+                                 </ImageView>
+                                 <Label prefHeight="18.0" prefWidth="132.0" text="chakhchoukha bl osban" textFill="#ffffffd9">
+                                    <font>
+                                       <Font name="Montserrat SemiBold" size="14.0" />
+                                    </font>
+                                    <VBox.margin>
+                                       <Insets left="10.0" top="10.0" />
+                                    </VBox.margin>
+                                 </Label>
+                                 <Label prefHeight="15.0" prefWidth="132.0" text="350DA" textFill="#a6e1fad9">
+                                    <font>
+                                       <Font name="Montserrat Medium" size="12.0" />
+                                    </font>
+                                    <VBox.margin>
+                                       <Insets left="10.0" top="5.0" />
+                                    </VBox.margin>
+                                 </Label>
+                              </children>
+                              <cursor>
+                                 <Cursor fx:constant="HAND" />
+                              </cursor>
+                           </VBox>
+
+
+                           <VBox alignment="TOP_CENTER" onMouseClicked="#addToCart" prefHeight="206.0" prefWidth="150.0">
+                              <children>
+                                 <ImageView fitHeight="130.0" fitWidth="130.0" pickOnBounds="true" style="-fx-border-radius: 10;">
+                                    <image>
+                                       <Image url="file:/C:/Users/PC/IdeaProjects/resto/src/images/mahjouba.jpg" />
+                                    </image>
+                                 </ImageView>
+                                 <Label prefHeight="18.0" prefWidth="132.0" text="mahjouba" textFill="#ffffffd9">
+                                    <font>
+                                       <Font name="Montserrat SemiBold" size="14.0" />
+                                    </font>
+                                    <VBox.margin>
+                                       <Insets left="10.0" top="10.0" />
+                                    </VBox.margin>
+                                 </Label>
+                                 <Label prefHeight="15.0" prefWidth="132.0" text="50DA" textFill="#a6e1fad9">
+                                    <font>
+                                       <Font name="Montserrat Medium" size="12.0" />
+                                    </font>
+                                    <VBox.margin>
+                                       <Insets left="10.0" top="5.0" />
+                                    </VBox.margin>
+                                 </Label>
+                              </children>
+                              <cursor>
+                                 <Cursor fx:constant="HAND" />
+                              </cursor>
+                           </VBox>
+
+
+                           <VBox alignment="TOP_CENTER" onMouseClicked="#addToCart" prefHeight="206.0" prefWidth="150.0">
+                              <children>
+                                 <ImageView fitHeight="130.0" fitWidth="130.0" pickOnBounds="true" style="-fx-border-radius: 10;">
+                                    <image>
+                                       <Image url="file:/C:/Users/PC/IdeaProjects/resto/src/images/kouskous.jpg" />
+                                    </image>
+                                 </ImageView>
+                                 <Label prefHeight="18.0" prefWidth="132.0" text="Naaama bl khodra" textFill="#ffffffd9">
+                                    <font>
+                                       <Font name="Montserrat SemiBold" size="14.0" />
+                                    </font>
+                                    <VBox.margin>
+                                       <Insets left="10.0" top="10.0" />
+                                    </VBox.margin>
+                                 </Label>
+                                 <Label prefHeight="15.0" prefWidth="132.0" text="300DA" textFill="#a6e1fad9">
+                                    <font>
+                                       <Font name="Montserrat Medium" size="12.0" />
+                                    </font>
+                                    <VBox.margin>
+                                       <Insets left="10.0" top="5.0" />
+                                    </VBox.margin>
+                                 </Label>
+                              </children>
+                              <cursor>
+                                 <Cursor fx:constant="HAND" />
+                              </cursor>
+                           </VBox>
+
+
+                           <VBox alignment="TOP_CENTER" onMouseClicked="#addToCart" prefHeight="206.0" prefWidth="150.0">
+                              <children>
+                                 <ImageView fitHeight="130.0" fitWidth="130.0" pickOnBounds="true" style="-fx-border-radius: 10;">
+                                    <image>
+                                       <Image url="file:/C:/Users/PC/IdeaProjects/resto/src/images/tlitli.jpg" />
+                                    </image>
+                                 </ImageView>
+                                 <Label prefHeight="18.0" prefWidth="132.0" text="tlitli bl djaj" textFill="#ffffffd9">
+                                    <font>
+                                       <Font name="Montserrat SemiBold" size="14.0" />
+                                    </font>
+                                    <VBox.margin>
+                                       <Insets left="10.0" top="10.0" />
+                                    </VBox.margin>
+                                 </Label>
+                                 <Label prefHeight="15.0" prefWidth="132.0" text="200DA" textFill="#a6e1fad9">
+                                    <font>
+                                       <Font name="Montserrat Medium" size="12.0" />
+                                    </font>
+                                    <VBox.margin>
+                                       <Insets left="10.0" top="5.0" />
+                                    </VBox.margin>
+                                 </Label>
+                              </children>
+                              <cursor>
+                                 <Cursor fx:constant="HAND" />
+                              </cursor>
+                           </VBox>
+
+
+                           <VBox alignment="TOP_CENTER" onMouseClicked="#addToCart" prefHeight="206.0" prefWidth="150.0">
+                              <children>
+                                 <ImageView fitHeight="130.0" fitWidth="130.0" pickOnBounds="true" style="-fx-border-radius: 10;">
+                                    <image>
+                                       <Image url="file:/C:/Users/PC/IdeaProjects/resto/src/images/trida.jpg" />
+                                    </image>
+                                 </ImageView>
+                                 <Label prefHeight="18.0" prefWidth="132.0" text="tridat alma9la" textFill="#ffffffd9">
+                                    <font>
+                                       <Font name="Montserrat SemiBold" size="14.0" />
+                                    </font>
+                                    <VBox.margin>
+                                       <Insets left="10.0" top="10.0" />
+                                    </VBox.margin>
+                                 </Label>
+                                 <Label prefHeight="15.0" prefWidth="132.0" text="350DA" textFill="#a6e1fad9">
+                                    <font>
+                                       <Font name="Montserrat Medium" size="12.0" />
+                                    </font>
+                                    <VBox.margin>
+                                       <Insets left="10.0" top="5.0" />
+                                    </VBox.margin>
+                                 </Label>
+                              </children>
+                              <cursor>
+                                 <Cursor fx:constant="HAND" />
+                              </cursor>
+                           </VBox>
+
+                        </children>
+                     </HBox>
+                  </children>
+               </VBox>
+               <VBox prefHeight="240.0" prefWidth="100.0">
+                  <children>
+                     <Label prefHeight="43.0" prefWidth="160.0" text="SOUPS" textFill="#a6e1fad9">
+                        <font>
+                           <Font name="Montserrat SemiBold" size="18.0" />
+                        </font>
+                        <padding>
+                           <Insets left="10.0" />
+                        </padding>
+                     </Label>
+                     <HBox prefHeight="200.0" prefWidth="1298.0">
+                        <children>
+
+
+                           <VBox alignment="TOP_CENTER" onMouseClicked="#addToCart" prefHeight="206.0" prefWidth="150.0">
+                              <children>
+                                 <ImageView fitHeight="130.0" fitWidth="130.0" pickOnBounds="true" style="-fx-border-radius: 10;">
+                                    <image>
+                                       <Image url="file:/C:/Users/PC/IdeaProjects/resto/src/images/tajin-zitoun.jpg" />
+                                    </image>
+                                 </ImageView>
+                                 <Label prefHeight="18.0" prefWidth="132.0" text="tajin ezitoun" textFill="#ffffffd9">
+                                    <font>
+                                       <Font name="Montserrat SemiBold" size="14.0" />
+                                    </font>
+                                    <VBox.margin>
+                                       <Insets left="10.0" top="10.0" />
+                                    </VBox.margin>
+                                 </Label>
+                                 <Label prefHeight="15.0" prefWidth="132.0" text="200DA" textFill="#a6e1fad9">
+                                    <font>
+                                       <Font name="Montserrat Medium" size="12.0" />
+                                    </font>
+                                    <VBox.margin>
+                                       <Insets left="10.0" top="5.0" />
+                                    </VBox.margin>
+                                 </Label>
+                              </children>
+                              <cursor>
+                                 <Cursor fx:constant="HAND" />
+                              </cursor>
+                           </VBox>
+
+
+                           <VBox alignment="TOP_CENTER" onMouseClicked="#addToCart" prefHeight="206.0" prefWidth="150.0">
+                              <children>
+                                 <ImageView fitHeight="130.0" fitWidth="130.0" pickOnBounds="true" style="-fx-border-radius: 10;">
+                                    <image>
+                                       <Image url="file:/C:/Users/PC/IdeaProjects/resto/src/images/loubia.jpg" />
+                                    </image>
+                                 </ImageView>
+                                 <Label prefHeight="18.0" prefWidth="132.0" text="Loubia bl karaain" textFill="#ffffffd9">
+                                    <font>
+                                       <Font name="Montserrat SemiBold" size="14.0" />
+                                    </font>
+                                    <VBox.margin>
+                                       <Insets left="10.0" top="10.0" />
+                                    </VBox.margin>
+                                 </Label>
+                                 <Label prefHeight="15.0" prefWidth="132.0" text="250DA" textFill="#a6e1fad9">
+                                    <font>
+                                       <Font name="Montserrat Medium" size="12.0" />
+                                    </font>
+                                    <VBox.margin>
+                                       <Insets left="10.0" top="5.0" />
+                                    </VBox.margin>
+                                 </Label>
+                              </children>
+                              <cursor>
+                                 <Cursor fx:constant="HAND" />
+                              </cursor>
+                           </VBox>
+
+
+                           <VBox alignment="TOP_CENTER" onMouseClicked="#addToCart" prefHeight="206.0" prefWidth="150.0">
+                              <children>
+                                 <ImageView fitHeight="130.0" fitWidth="130.0" pickOnBounds="true" style="-fx-border-radius: 10;">
+                                    <image>
+                                       <Image url="file:/C:/Users/PC/IdeaProjects/resto/src/images/jari-frik.jpg" />
+                                    </image>
+                                 </ImageView>
+                                 <Label prefHeight="18.0" prefWidth="132.0" text="Jari frik bl kasra" textFill="#ffffffd9">
+                                    <font>
+                                       <Font name="Montserrat SemiBold" size="14.0" />
+                                    </font>
+                                    <VBox.margin>
+                                       <Insets left="10.0" top="10.0" />
+                                    </VBox.margin>
+                                 </Label>
+                                 <Label prefHeight="15.0" prefWidth="132.0" text="400DA" textFill="#a6e1fad9">
+                                    <font>
+                                       <Font name="Montserrat Medium" size="12.0" />
+                                    </font>
+                                    <VBox.margin>
+                                       <Insets left="10.0" top="5.0" />
+                                    </VBox.margin>
+                                 </Label>
+                              </children>
+                              <cursor>
+                                 <Cursor fx:constant="HAND" />
+                              </cursor>
+                           </VBox>
+
+
+                           <VBox alignment="TOP_CENTER" onMouseClicked="#addToCart" prefHeight="206.0" prefWidth="150.0">
+                              <children>
+                                 <ImageView fitHeight="130.0" fitWidth="130.0" pickOnBounds="true" style="-fx-border-radius: 10;">
+                                    <image>
+                                       <Image url="file:/C:/Users/PC/IdeaProjects/resto/src/images/aadas.jpg" />
+                                    </image>
+                                 </ImageView>
+                                 <Label prefHeight="18.0" prefWidth="132.0" text="Aadas" textFill="#ffffffd9">
+                                    <font>
+                                       <Font name="Montserrat SemiBold" size="14.0" />
+                                    </font>
+                                    <VBox.margin>
+                                       <Insets left="10.0" top="10.0" />
+                                    </VBox.margin>
+                                 </Label>
+                                 <Label prefHeight="15.0" prefWidth="132.0" text="150DA" textFill="#a6e1fad9">
+                                    <font>
+                                       <Font name="Montserrat Medium" size="12.0" />
+                                    </font>
+                                    <VBox.margin>
+                                       <Insets left="10.0" top="5.0" />
+                                    </VBox.margin>
+                                 </Label>
+                              </children>
+                              <cursor>
+                                 <Cursor fx:constant="HAND" />
+                              </cursor>
+                           </VBox>
+
+
+                        </children>
+                     </HBox>
+                  </children>
+               </VBox>
+               <VBox prefHeight="240.0" prefWidth="100.0">
+                  <children>
+                     <Label prefHeight="46.0" prefWidth="154.0" text="DESSERTS" textFill="#a6e1fad9">
+                        <font>
+                           <Font name="Montserrat SemiBold" size="18.0" />
+                        </font>
+                        <padding>
+                           <Insets left="10.0" />
+                        </padding>
+                     </Label>
+                     <HBox prefHeight="200.0" prefWidth="1298.0">
+                        <children>
+
+                           <VBox alignment="TOP_CENTER" onMouseClicked="#addToCart" prefHeight="206.0" prefWidth="150.0">
+                              <children>
+                                 <ImageView fitHeight="130.0" fitWidth="130.0" pickOnBounds="true" style="-fx-border-radius: 10;">
+                                    <image>
+                                       <Image url="file:/C:/Users/PC/IdeaProjects/resto/src/images/tajine-lahlou.jpeg" />
+                                    </image>
+                                 </ImageView>
+                                 <Label prefHeight="18.0" prefWidth="132.0" text="Tajine lahlou" textFill="#ffffffd9">
+                                    <font>
+                                       <Font name="Montserrat SemiBold" size="14.0" />
+                                    </font>
+                                    <VBox.margin>
+                                       <Insets left="10.0" top="10.0" />
+                                    </VBox.margin>
+                                 </Label>
+                                 <Label prefHeight="15.0" prefWidth="132.0" text="300DA" textFill="#a6e1fad9">
+                                    <font>
+                                       <Font name="Montserrat Medium" size="12.0" />
+                                    </font>
+                                    <VBox.margin>
+                                       <Insets left="10.0" top="5.0" />
+                                    </VBox.margin>
+                                 </Label>
+                              </children>
+                              <cursor>
+                                 <Cursor fx:constant="HAND" />
+                              </cursor>
+                           </VBox>
+
+                        </children>
+                     </HBox>
+                  </children>
+               </VBox>
+            </children>
+         </VBox>
+      </children></Pane>
+</AnchorPane>

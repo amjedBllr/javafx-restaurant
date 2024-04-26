@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane fx:id="mainPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="785.0" prefWidth="1540.0" style="-fx-background-color: #001C55;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.resto.MainLayerController">
+    <left>
+        <VBox prefHeight="794.0" prefWidth="200.0" style="-fx-background-color: #A6E1FA;" BorderPane.alignment="CENTER">
+            <children>
+                <HBox alignment="CENTER" prefHeight="150.0" prefWidth="200.0">
+                    <children>
+                        <ImageView fitHeight="125.0" fitWidth="125.0" pickOnBounds="true" preserveRatio="true">
+                            <HBox.margin>
+                                <Insets />
+                            </HBox.margin>
+                            <image>
+                                <Image url="file:/C:/Users/PC/IdeaProjects/resto/src/images/logo2-removebg-preview.png" />
+                            </image>
+                        </ImageView>
+                    </children>
+                </HBox>
+                <VBox prefHeight="210.0" prefWidth="200.0">
+                    <children>
+                        <HBox fx:id="homeButton" onMouseClicked="#handleButtonClick" alignment="CENTER"  prefHeight="50.0" prefWidth="198.0" style="-fx-background-color: #0E6BA8; -fx-cursor: hand;">
+                            <children>
+                                <Label text="HOME" textFill="#ffffffce">
+                                    <font>
+                                        <Font name="Montserrat SemiBold" size="18.0" />
+                                    </font>
+                                </Label>
+                            </children>
+                            <opaqueInsets>
+                                <Insets />
+                            </opaqueInsets>
+                            <VBox.margin>
+                                <Insets />
+                            </VBox.margin>
+                        </HBox>
+                        <HBox fx:id="menuButton" onMouseClicked="#handleButtonClick" alignment="CENTER" prefHeight="50.0" prefWidth="198.0" style="-fx-cursor: hand;">
+                            <children>
+                                <Label text="MENU" textFill="#00072d">
+                                    <font>
+                                        <Font name="Montserrat SemiBold" size="18.0" />
+                                    </font>
+                                </Label>
+                            </children>
+                            <opaqueInsets>
+                                <Insets />
+                            </opaqueInsets>
+                            <VBox.margin>
+                                <Insets />
+                            </VBox.margin>
+                        </HBox>
+                        <HBox fx:id="ordersButton" onMouseClicked="#handleButtonClick" alignment="CENTER" prefHeight="50.0" prefWidth="198.0" style="-fx-cursor: hand;">
+                            <children>
+                                <Label text="ORDERS" textFill="#00072d">
+                                    <font>
+                                        <Font name="Montserrat SemiBold" size="18.0" />
+                                    </font>
+                                </Label>
+                            </children>
+                            <opaqueInsets>
+                                <Insets />
+                            </opaqueInsets>
+                            <VBox.margin>
+                                <Insets />
+                            </VBox.margin>
+                        </HBox>
+                        <HBox fx:id="profileButton" onMouseClicked="#handleButtonClick" alignment="CENTER" prefHeight="50.0" prefWidth="198.0" style="-fx-cursor: hand;">
+                            <children>
+                                <Label text="PROFILE" textFill="#00072d">
+                                    <font>
+                                        <Font name="Montserrat SemiBold" size="18.0" />
+                                    </font>
+                                </Label>
+                            </children>
+                            <opaqueInsets>
+                                <Insets />
+                            </opaqueInsets>
+                            <VBox.margin>
+                                <Insets />
+                            </VBox.margin>
+                        </HBox>
+                        <HBox fx:id="aboutButton" onMouseClicked="#handleButtonClick" alignment="CENTER" prefHeight="50.0" prefWidth="198.0" style="-fx-cursor: hand;">
+                            <children>
+                                <Label text="ABOUT US" textFill="#00072d">
+                                    <font>
+                                        <Font name="Montserrat SemiBold" size="18.0" />
+                                    </font>
+                                </Label>
+                            </children>
+                            <opaqueInsets>
+                                <Insets />
+                            </opaqueInsets>
+                        </HBox>
+                    </children>
+                </VBox>
+            </children>
+        </VBox>
+    </left>
+    <center>
+        <fx:include source="./home-view.fxml" fx:id="page" />
+    </center>
+</BorderPane>
